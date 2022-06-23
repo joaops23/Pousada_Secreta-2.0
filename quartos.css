@@ -1,0 +1,44 @@
+.container {
+    height: 250px;
+    object-fit: cover;
+    margin-bottom: 50px;;
+}
+
+.quartos nav img {
+    width: calc(100% / 3 - 30px);
+    height: 220px;
+    padding: 5px;
+    object-fit: cover;
+}
+
+.desc {
+    max-width: 1024px;
+    margin: auto;
+    border: 10px solid transparent;
+    margin-bottom: 30px;
+}
+
+.desc h4 {
+    text-align: center;
+}
+
+.desc ul {
+    width: 100%;
+    padding: 10px;
+    
+}
+
+.desc ul li {
+    flex-direction: row;
+    width: 25%;
+    float: left;
+    
+}
+
+.desc ul li:last-child{
+    float: right;
+}
+
+footer {
+    margin-top: 30px;
+}

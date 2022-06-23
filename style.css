@@ -1,0 +1,250 @@
+*:not(.contato){
+    box-sizing: border-box;
+    width: 100%;
+    
+}
+
+body{
+    font-family: "Source Sans Pro", sans-serif;
+    margin: 0;
+    border: 0;
+}
+/*        Menu inicial     */
+header {
+    height: 40px;
+    display: flex;
+    font-size: 16px;
+    width: 100%;
+    flex-flow: row nowrap;
+    position: fixed;
+    background: white;
+}
+
+.topo {
+    width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;  
+}
+
+.logo a {
+    Text-decoration: none;
+    color: black;
+    margin-left: 23px;
+}
+
+.logo a span{
+    color: #6495ED;
+    font-weight: 500;
+}
+
+.menu {
+    margin-right: 25px;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    text-transform: uppercase;
+    
+}
+
+/* Conteúdo Principal */
+
+.container{
+    box-sizing: border-box;
+    background-image: url("src/img-fundo.jpg");
+    background-repeat: no-repeat;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+
+.inicio {
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    border: 1px solid #eee;
+    border-radius: 7px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    color: white;
+    font-size: 2em;
+    background-color: rgba(112,128,144,0.6);
+    text-align: center;
+    padding: 15px;
+}
+
+.inicio h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.inicio p{
+    font-weight: 200;
+    Font-size: 20px;
+    text-align: center;
+}
+
+.centralizado {
+    box-sizing: border-box;
+    height: auto;
+    width: 100%;
+    padding:20px;
+    text-align: center;
+    flex-flow: column wrap;
+}
+
+.centralizado p {
+    text-align: center;
+}
+
+.quartos nav {
+    width: 1024px;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row nowrap;
+    height: 300px;
+    text-align: center;
+    font-weight: 600;
+    
+}
+
+.quartos a{   
+    margin: 40px;
+    margin-bottom: 10px;
+    flex-basis: calc(100% / 3);
+    flex-shrink: 3;
+    text-decoration: none;
+        
+}
+
+
+.quartos a img{
+    max-width: 500px;
+    height: 150px;
+}
+
+.quartos  p {
+    color: black;
+    border-bottom: 2px solid rgb(26, 97, 97);
+    text-align: center;
+}
+
+#rota {
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+#rota iframe {
+    width: 99%;
+}
+
+.sobre{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sobre aside {
+    display: flex;
+    width: calc(100% / 2 - 30px);
+    height: 200px;
+    padding: 10px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;;
+    
+}
+
+.sobre img{
+    padding: 15px;
+    width: 150px;
+    height: 170px;
+    object-fit: cover;
+}
+
+.sobre div {
+    
+}
+
+.sbr-cont{
+    float: left;
+    width: 50%;
+    color: black;
+}
+.sbr-img{
+    justify-content: right;
+    width: 40%;
+}
+
+footer {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    background-color:rgb(87, 140, 96);
+    flex-direction: column;
+}
+
+footer div{
+    display: flex;
+    color: #FFF;
+    margin-right: 5px;
+    height: 100%;
+
+}
+
+ footer .contato {
+    justify-content: center;
+    
+}
+
+footer .contato div{
+    box-sizing: border-box;
+    width: calc(100vw / 4);
+    margin: auto;
+    Justify-content: center;
+    float: left;
+    padding-left: 20px;
+    flex-direction: row;
+}
+
+footer .contato div a{
+    padding: 10px;
+    margin: auto;
+    color: white;
+}
+
+footer .contato div p{
+    color: white;
+    /*text-align: center;*/
+    padding: 10px;
+    margin: auto;
+
+}
+
+footer .copy {
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    border-top: 1px solid rgb(53, 100, 61);
+
+
+}
+
+footer .contato img {
+    width: 20px;
+    height: 20px;
+    margin: auto;
+}
