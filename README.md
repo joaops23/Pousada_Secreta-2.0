@@ -10,3 +10,8 @@ Este é o primeiro projeto que realizei, é um projeto guiado, feito pela plataf
 ### Link para visualização do projeto
 
 <a href="https://joaops23.github.io/Pousada-Secreta/" target="_blank" title="Link para visualização do projeto">Pousada Secreta</a>
+
+
+<h4 align="center">
+  Status do projeto: Finalizado ✔
+</h4>
