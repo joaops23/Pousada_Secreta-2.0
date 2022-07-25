@@ -13,5 +13,8 @@ Este é o primeiro projeto que realizei, é um projeto guiado, feito pela plataf
 
 
 <h4 align="center">
-  Status do projeto: Finalizado ✔
+  Status do projeto: Objetivo principal Finalizado ✔
 </h4>
+
+<h3 align="center">Adicionando interação com banco de dados e Lógica com PHP ao projeto.</h3>
+<h4 align="center"> 🚧 Em Construção 🚧
