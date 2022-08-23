@@ -1,0 +1,4 @@
+ReWriteEngine On
+ReWriteCond %{REQUEST_URI} !-f
+ReWriteCond %{REQUEST_URI} !-d
+ReWriteCond %{REQUEST_URI} !-|

@@ -1,20 +1,24 @@
-# Pousada Secreta
+# Pousada Secreta - 2.0
+  Projeto envolvendo o anterior "Pousada Secreta", adicionando uma aplicação backend para inserção, alteração e manipulação de dados através do Micro Framework php Slim Framework e o PHP7+
 
-Este é o primeiro projeto que realizei, é um projeto guiado, feito pela plataforma DevMedia, com intuito de treinar as tecnologias HTML5 e CSS3.
- 
+  A ideia é incrementar ao projeto anterior, adicionando as funcionalidades de uma aplicação BackEnd capaz de gerenciar os dados trafegados pelos usuários
 ### Techs
  
 * HTML5
 * CSS3
+* PHP7+
+* Slim Framework
+* MySQL
 
-### Link para visualização do projeto
+## Dicas 
 
-<a href="https://joaops23.github.io/Pousada-Secreta/" target="_blank" title="Link para visualização do projeto">Pousada Secreta</a>
+#### Para subir o servidor integrado do PHP
+~~~php
+> php -S localhost:8000 -t public
+~~~
 
-
-<h4 align="center">
-  Status do projeto: Objetivo principal Finalizado ✔
-</h4>
+#### Rota para a tela inicial
+http://localhost:8000/
 
 <h3 align="center">Adicionando interação com banco de dados e Lógica com PHP ao projeto.</h3>
 <h4 align="center"> 🚧 Em Construção 🚧
